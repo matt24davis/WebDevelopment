@@ -1,0 +1,142 @@
+
+
+html{
+    height: 100%;
+    margin: auto;
+    width:auto;
+    background-color:aliceblue;
+    
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 25%;
+  margin-left: 10px;
+  margin-right: 5%;
+  float:left;
+}
+
+.card img{
+  float: left;
+    width:  100px;
+    height: 550px;
+    object-fit: cover;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:#FFC629;
+}
+
+li {
+  float:left;
+  font-size: larger;
+  
+  
+}
+
+li a {
+  display: block;;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: gray;
+}
+  section  {
+text-align: center;
+  }
+
+  #undergradDisplay{
+    display:none;
+  }
+  #gradDisplay{
+    display:none;
+  }
+
+  
+
+  p{
+    font-size: larger;
+  }
+
+  select{
+    font-size: 90;
+    padding-left: 50px;
+    width: 50px;
+    height: 35px;
+    
+  }
+button{
+  border-radius: 50px;
+  width:120px;
+  height: 30px;
+  font-size: larger;
+  padding-bottom: 30px; 
+  background-color: #FFC629
+  ;
+} 
+#break {
+  content:"\a";
+  white-space: pre; 
+}
+
+#link{
+ display: none;
+}
+
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color:#FFC629;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: black;
+    }
+    
+    .contactus {
+      margin-top: 15%;
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    .footer {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background: rgb(237, 185, 74);
+      text-align:center;}
+
+      #falcuty{
+        margin-right: auto;
+      }
